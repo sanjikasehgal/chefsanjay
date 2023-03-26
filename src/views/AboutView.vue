@@ -1,13 +1,14 @@
 <template>
   <div class="about">
-    <h1>Our Story</h1>
-    <img alt="biscotti" class="biscotti" src="@/assets/biscottis.png" width="350" height="350" />
     <h2>Meet Chef Sanjay</h2>
+    <img alt="biscotti" class="biscotti" src="@/assets/papa-mamma.png" width="350" height="350" />
     <p>
-      I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit
-      Text” or double click me to add your own content and make changes to the font. Feel free to
-      drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and
-      let your users know a little more about you. This is a great space to write long text about
+      A professional chef with over 30 years, Chef Sanjay has been perfecting his biscotti recipe
+      for decades and has finally landed on what we think is the absolute perfect biscotti!
+    </p>
+    <p>
+      Baked and prepared in his own home kitchen, you know that every bite is packed full with love
+      and care.
     </p>
   </div>
 </template>
@@ -37,5 +38,7 @@ h2 {
 p {
   max-width: 550px;
   align-self: center;
+  text-align: left;
+  margin: 5px 0;
 }
 </style>

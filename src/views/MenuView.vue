@@ -11,8 +11,8 @@ export default {
 
 <template>
   <div class="menu">
-    <h1>This is a Menu Page</h1>
-    <carousel :slides="slides" :interval="10000" controls indicators></carousel>
+    <h2>Our Delicious Flavours</h2>
+    <carousel :slides="slides" :interval="5000" controls indicators></carousel>
   </div>
 </template>
 
@@ -23,5 +23,8 @@ export default {
   justify-content: flex-start;
   text-align: center;
   margin: 0.5rem;
+}
+h2 {
+  font-style: italic;
 }
 </style>

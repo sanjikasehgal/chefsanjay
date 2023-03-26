@@ -27,9 +27,9 @@ export default {
 }
 .carousel-indicator-item {
   width: 15px;
-  height: 15px;
-  border: none;
-  background: #fff;
+  height: 14px;
+  border: 1px solid black;
+  background-color: #dcdee18f;
   opacity: 0.5;
   margin: 0.2em;
   border-radius: 50%;
