@@ -1,10 +1,10 @@
 <template>
   <!-- todo change buttons to nice icons -->
   <button class="carousel-control left" @click="$emit('prev')">
-    <img src="https://img.icons8.com/ios/100/null/circled-chevron-left.png" />
+    <img class="left" src="https://img.icons8.com/ios/100/null/circled-chevron-left.png" />
   </button>
   <button class="carousel-control right" @click="$emit('next')">
-    <img src="https://img.icons8.com/ios/100/null/circled-chevron-right--v1.png" />
+    <img class="right" src="https://img.icons8.com/ios/100/null/circled-chevron-right--v1.png" />
   </button>
 </template>
 
@@ -33,7 +33,6 @@ export default {
 }
 img {
   height: 40px;
-  width: 40px;
   margin-left: -6px;
   margin-top: -1px;
 }

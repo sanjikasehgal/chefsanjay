@@ -1,9 +1,34 @@
+<script>
+import { RouterLink } from 'vue-router'
+</script>
+
 <template>
-    <div class="Home">
-      <h1>This is the Home Page</h1>
+  <div class="background">
+    <div class="home">
+      <img alt="icon" src="@/assets/center-logo-4.png" width="250" height="250" />
+      <RouterLink to="/menu">
+        <img alt="icon" src="@/assets/check-menu-1.png" width="250" />
+      </RouterLink>
     </div>
-  </template>
-  
-  <style>
-  </style>
-  
+  </div>
+</template>
+
+<style>
+.background {
+  background-image: url('/background/background-4-bigger.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #ff53dd33;
+  position: relative;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  display: flex;
+}
+</style>

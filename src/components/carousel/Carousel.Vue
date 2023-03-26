@@ -97,14 +97,9 @@ export default {
 }
 </script>
 
-<style scoped>
-.carousel {
-  display: flex;
-  justify-content: center;
-}
+<style>
 .carousel-inner {
-  position: absolute;
-  width: 350px;
+  position: relative;
   height: 630px;
   overflow: hidden;
 }
