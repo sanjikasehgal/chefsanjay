@@ -82,7 +82,7 @@
 .contact-item {
   max-width: 260px;
   min-height: 100px;
-  padding: 0 30px 30px 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-content: space-around;

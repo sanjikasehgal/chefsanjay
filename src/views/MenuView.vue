@@ -17,7 +17,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .menu {
   display: flex;
   flex-direction: row;
@@ -36,5 +36,12 @@ h2 {
 
 .item {
   padding: 0 30px 0 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .item {
+    width: 340px;
+    padding: 10px;
+  }
 }
 </style>
