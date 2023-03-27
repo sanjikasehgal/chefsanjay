@@ -24,6 +24,7 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav a {

@@ -1,9 +1,9 @@
 <template>
   <!-- todo change buttons to nice icons -->
-  <button class="carousel-control left" @click="$emit('prev')">
+  <button @click="$emit('prev')">
     <img class="left" src="https://img.icons8.com/ios/100/null/circled-chevron-left.png" />
   </button>
-  <button class="carousel-control right" @click="$emit('next')">
+  <button @click="$emit('next')">
     <img class="right" src="https://img.icons8.com/ios/100/null/circled-chevron-right--v1.png" />
   </button>
 </template>
@@ -14,17 +14,6 @@ export default {
 }
 </script>
 <style scoped>
-.carousel-control {
-  display: inline-block;
-  position: absolute;
-  background-color: #dcdee18f;
-  top: calc(50%);
-  cursor: pointer;
-  border: none;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
 .left {
   left: 5px;
 }
@@ -32,8 +21,14 @@ export default {
   right: 5px;
 }
 img {
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  top: calc(50%);
   height: 40px;
-  margin-left: -6px;
-  margin-top: -1px;
+  background-color: #dcdee18f;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
 }
 </style>

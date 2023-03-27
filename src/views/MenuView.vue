@@ -25,6 +25,7 @@ export default {
   text-align: center;
   margin: 0.5rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 h2 {
   font-style: italic;
