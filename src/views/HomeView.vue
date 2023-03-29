@@ -31,4 +31,10 @@ import { RouterLink } from 'vue-router'
 img {
   display: flex;
 }
+
+@media only screen and (max-width: 700px) {
+  .background {
+    background-image: url('/background/background.jpg');
+  }
+}
 </style>
