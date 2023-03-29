@@ -7,3 +7,7 @@ services:
       deploy_on_push: true
       repo: sanjikasehgal/chefsanjay
     name: chefsanjay
+    routes:
+      - path: /
+    source_dir: /
+    index_document: index.html
