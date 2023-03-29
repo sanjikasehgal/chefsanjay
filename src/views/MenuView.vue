@@ -12,7 +12,7 @@ export default {
 <template>
   <h2>Menu</h2>
   <div class="menu">
-    <img class="item" alt="menu" src="@/assets/menu.png" width="490" />
+    <img class="item" alt="menu" src="/menu/menu.png" width="490" />
     <carousel class="item" :slides="slides" :interval="5000" controls indicators> </carousel>
   </div>
 </template>

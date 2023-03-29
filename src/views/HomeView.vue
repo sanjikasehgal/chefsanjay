@@ -5,9 +5,9 @@ import { RouterLink } from 'vue-router'
 <template>
   <div class="background">
     <div class="home">
-      <img alt="icon" src="@/assets/center-logo-4.png" width="250" height="250" />
+      <img alt="icon" src="/center-logo-4.png" width="250" height="250" />
       <RouterLink to="/menu">
-        <img alt="icon" src="@/assets/check-menu-1.png" width="250" />
+        <img alt="icon" src="/menu/check-menu-1.png" width="250" />
       </RouterLink>
     </div>
   </div>

@@ -26,7 +26,7 @@ const router = createRouter({
         component: () => import('../views/MenuView.vue')
       },
       {
-        path: '/contact',
+        path: '/contact',   
         name: 'contact',
         // route level code-splitting
         // this generates a separate chunk (Menu.[hash].js) for this route

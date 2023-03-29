@@ -2,7 +2,7 @@
   <div class="background-about">
     <div class="about">
       <h2>Meet Chef Sanjay</h2>
-      <img alt="biscotti" class="biscotti" src="@/assets/papa-mamma.png" width="350" height="350" />
+      <img alt="biscotti" class="biscotti" src="/papa-mamma.png" width="350" height="350" />
       <p>
         A professional chef with over 30 years, Chef Sanjay has been perfecting his biscotti recipe
         for decades and has finally landed on what we think is the absolute perfect biscotti!
@@ -17,7 +17,9 @@
 
 <style>
 .background-about {
-  background: url('background/background-about-2.png') center center fixed;
+  background-image: url('/background/background-about-2.png');
+  background-position: center center;
+  background-attachment: fixed;
   height: 100%;
   overflow: hidden;
   border: none;
