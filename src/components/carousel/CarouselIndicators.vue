@@ -1,3 +1,10 @@
+<script lang="ts">
+export default {
+  emits: ['switch'],
+  props: ['total', 'currentIndex']
+}
+</script>
+
 <template>
   <div class="carousel-indicators">
     <button
@@ -9,13 +16,6 @@
     ></button>
   </div>
 </template>
-
-<script>
-export default {
-  emits: ['switch'],
-  props: ['total', 'currentIndex']
-}
-</script>
 
 <style scoped>
 .carousel-indicators {

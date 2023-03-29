@@ -1,5 +1,10 @@
+<script lang="ts">
+export default {
+  emits: ['prev', 'next']
+}
+</script>
+
 <template>
-  <!-- todo change buttons to nice icons -->
   <button @click="$emit('prev')">
     <img class="left" src="https://img.icons8.com/ios/100/null/circled-chevron-left.png" />
   </button>
@@ -8,11 +13,6 @@
   </button>
 </template>
 
-<script>
-export default {
-  emits: ['prev', 'next']
-}
-</script>
 <style scoped>
 .left {
   left: 5px;

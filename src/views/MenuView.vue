@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import Carousel from '../components/carousel/Carousel.vue'
 export default {
   name: 'App',

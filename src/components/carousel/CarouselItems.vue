@@ -1,3 +1,10 @@
+<script lang="ts">
+export default {
+  emits: ['mouseenter', 'mouseout'],
+  props: ['slide', 'currentSlide', 'index', 'direction']
+}
+</script>
+
 <template>
   <div
     class="carousel-item"
@@ -8,13 +15,6 @@
     <img :src="slide" width="350" height="630" />
   </div>
 </template>
-
-<script>
-export default {
-  emits: ['mouseenter', 'mouseout'],
-  props: ['slide', 'currentSlide', 'index', 'direction']
-}
-</script>
 
 <style scoped>
 .carousel-item {

@@ -49,5 +49,6 @@ p {
   margin: 10px;
   padding: 5px;
   background-color: white;
+  font-size: 15.5px;
 }
 </style>
