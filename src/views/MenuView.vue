@@ -1,8 +1,8 @@
 <script lang="ts">
-// import Carousel from '../components/carousel/Carousel.vue'
+import Carousel from '../components/carousel/Carousel.vue'
 export default {
   name: 'App',
-  // components: { Carousel },
+  components: { Carousel },
   data: () => ({
     slides: ['/menu/item1.jpg', '/menu/item3.jpg', '/menu/item5.jpg', '/menu/item6.jpg']
   })
@@ -13,7 +13,7 @@ export default {
   <h2>Menu</h2>
   <div class="menu">
     <img class="item" alt="menu" src="/menu/menu.png" width="490" />
-    <!-- <carousel class="item" :slides="slides" :interval="5000" controls indicators> </carousel> -->
+    <carousel class="item" :slides="slides" :interval="5000" controls indicators> </carousel>
   </div>
 </template>
 
