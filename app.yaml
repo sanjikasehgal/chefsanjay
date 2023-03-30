@@ -9,5 +9,5 @@ services:
     name: chefsanjay
     routes:
       - path: /
-    source_dir: /
+    source_dir: /dist
     index_document: index.html
