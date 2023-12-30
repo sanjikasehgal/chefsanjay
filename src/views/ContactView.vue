@@ -11,7 +11,7 @@
           height="25"
         />
         <div class="line-item">Address</div>
-        <div class="line-item">117 Braymore Blvd M1B 2N6, Scarborough, ON</div>
+        <div class="line-item">Meadowvale and Sheppard, Scarborough, ON</div>
       </div>
       <div class="contact-item">
         <img
